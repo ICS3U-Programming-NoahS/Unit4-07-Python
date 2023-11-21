@@ -7,6 +7,7 @@
 
 
 def main():
+    # Using for loop to display all integers between 1000 and 2000
     for counter in range(1000, 2001):
         if counter == 1000:
             print(counter, " ", end="")
